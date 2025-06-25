@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fan Project</h1>
+
+  <button onclick="fanOff()">Fan Off</button>
+  <img id="fan" src="fanoff.gif" width="200" alt="Fan">
+  <button onclick="fanOn()">Fan On</button>
+
+  <script>
+    function fanOn() {
+      document.getElementById("fan").src = "fanon.gif";
+    }
+
+    function fanOff() {
+      document.getElementById("fan").src = "fanoff.gif";
+    }
+    </script>
+</body>
+</html>
